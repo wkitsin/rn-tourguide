@@ -126,6 +126,7 @@ export const TourGuideProvider = ({
   const stop = () => {
     setVisible(false)
     setCurrentStep(undefined)
+    setSteps({})
   }
 
   const registerStep = (step: IStep) => {
